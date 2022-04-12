@@ -1,0 +1,52 @@
+.fa-star{
+    color: orangered;
+}
+section{
+    display: flex;
+    flex-basis: 100px auto; 
+    gap: 100px;
+    justify-content: center;
+
+}
+#h{
+ width: 500px; height: 650px;
+    /* padding-left: 10%; */
+   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.add-button{
+    color: white;
+    background-color: orangered;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+  
+}
+.Bt{
+    border: 1px solid red; 
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    color: gray;
+
+  
+    
+}
+.Bt:hover {
+    background-color: #F33B3B;
+    color: white;
+}
+.add-button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 17px gray;
+}
+.fa-star{
+    color: lightgrey;
+}
+.fa-star:hover{
+    color: black;
+}
